@@ -1,0 +1,26 @@
+<!-- 
+01. Input seria as caixinhas de informaçoes que eu vou preenchendo em um site,
+como rua, nome.... para isso utilizo a tag <input/>
+02. posso inserir um parametro autocomplete="" geralmente sao dados utilizados pelo navegador
+que o sistema já traz completo ao selecionar, pois o navegador costuma guardar as informaçoes, 
+porem preciso especificar (rua,nome,numero...) 
+03. Parametro disable ele desabilita meu input
+04. Parametro value, insere um valor
+05. Parametro placeholder serve para deixar uma informaçao a ser inserida
+que ao comecar a digitar some
+06 caso eu queira associar uma palavra que esteja fora do meu input eu preciso utilizar a 
+tag <label>
+07. Parametro autofocus ele já começa minha página focado dentro de um input, lembrando
+que não devo fazer isso em varios input pois o sistema não fará isso.
+-->
+
+<input autocomplete="street-address"
+disabled
+value="Gisele"
+/> 
+<label>
+Rua: 
+<input autocomplete="street-address"
+placeholder="Digite sua rua" autofocus
+/> 
+</label>

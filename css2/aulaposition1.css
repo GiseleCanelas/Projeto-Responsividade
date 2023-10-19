@@ -1,0 +1,35 @@
+/* Vamos falar de position
+01. Position Static (padrão) - não aceita valores de top, botton, right, left
+02. Position Fixed - fixa o elemento na tela. (FLUTUA)
+03. Position Sticky - age como um adesivo, fixa o elemento só onde eu determinar
+04. Position Relative - posição relativa a posição inicial dele
+05. Position Absolute - posição absoluta (fixa) a algum eemento ou a pagina (FLUTUA)
+*Se não tiver pai / pai for static _ Posiciona referente a pagina
+** Se o pai não for static - posiciona referente ao pai
+*/
+
+
+*{padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+height: 200px;
+width: 200px;
+}
+
+.Div-dad{
+height: 350px;
+width: 350px;
+background-color:  #ff1396;
+}
+
+.Div-son{
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00
+}
+
+.Div-outra{
+height:100px ;
+width: 100px;
+background-color: #FF0000;
+}

@@ -1,0 +1,32 @@
+/* posso fazer seleção de configuração do css com meuhtml de varias formas
+1 Primeiro usando as tags
+2 Segundo caso para qdo eu tenho varias paragrafos por ex ou botoes e quero no 
+caso aplicar estilos diferentes pra cada um. 
+O seletor *{} no css ele aplica em  TUDO a mesma configuração
+3 Terceiro seletor é o id (funciona como um Rg onde cada um tem sua configuraçao unica)
+4 Quarto seletor é as casses ( funciona como um cep onde várias pessoas utilizam do mesmo)
+obs - preciso fazer essas configuracoes do id e da class no html e depois
+eu venho no css pra colocar as configuraçoes necessarias de estilos
+obs2 - Para chamar o id no css eu uso #
+obs3 Para chamar a classe no css eu uso .
+obs 4 caso eu queira usar uma mesma configuracao para maisde 
+um item posso colocar entra virgulas meus itens como no ultimo exemplo
+abaixo
+*/
+
+
+
+#titulo {color: blueviolet;
+    font-size: 55px;
+}
+
+
+.botao{color: darkolivegreen;
+    background: yellow;
+    font-size: 25px;
+}
+ .nome, h1 
+ {color: black;
+    font-weight: bolder;
+
+ }

@@ -1,0 +1,26 @@
+/* formas de inserir cores no css:
+01 Atraves do codigo RGB seria a tradução de red,green e blue
+onde a cor maxima vai de 0 a 255. entao eu escreveria
+dessa forma rgb(255,0,0) me daria a cor vermelha,
+já rgb(0,0, 255) me daria a cor azul e assim por diante
+eu iria brincando com os numeros ate escolher a cor que quisesse
+
+02 Atraves do codigo hexadecimal - #ff0000 me dará 100% vermelho 
+e assim por diante, lembrando que a sequancia é red,green, blue
+porem tenho sites que me ajudam a achar os codigos de cores como::after
+a) https://www.w3schools.com/
+b)https://color.adobe.com/
+
+*/
+
+
+h1{
+
+    background-color: rgb(100,50,100)}
+
+p{
+    color: rgb(255,50,0);}
+
+    button{background: #DA323E
+
+    }

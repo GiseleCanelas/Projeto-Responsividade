@@ -1,0 +1,148 @@
+*{font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+header{margin: 44px 0px 144px 76px}
+
+.link-header{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    background: #665AE1;
+    border: none;
+    cursor: pointer;
+
+}
+
+h1{color:#515151;
+font-size: 100px;
+font-weight: 900;
+line-height: normal;
+
+}
+
+h2{color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    
+}
+
+p{color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 515px;
+    margin-bottom: 65px; 
+    margin-top: 32px;
+  
+}
+
+.img-dog{width: 568px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 125px;
+   
+}
+
+section{display: inline-block; 
+    margin-left: 86px;
+
+}
+
+.button-2{color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:390px) {
+
+  
+  header{display: none;
+  }
+
+  main{padding: 0;
+    margin: 0;
+
+  }
+
+.img-dog{
+    width: 354px;
+    height: 317px;
+    margin-top: 149px;
+    margin-right: 22px;
+    margin-left: 14px;
+
+}
+
+h1{ width: 263px;
+    height: 52px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+    margin-top: 40px;
+    margin-left: 64px;
+
+    
+    
+    }
+
+    h2{width: 232px;
+    height: 37px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    margin-left: 79px;
+    margin-right: 79px;
+    
+
+    }
+
+    p{display: none;}
+
+    section{
+        margin-left:0px;
+        line-height:7;
+       
+    }
+
+    .button-2{margin-left: 76px;
+        margin-right: 76px;
+
+
+    }
+
+
+   
+
+   
+
+}

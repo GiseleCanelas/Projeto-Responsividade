@@ -1,0 +1,24 @@
+/* Pseudo classe:
+01 Active - quando o elemento está ativo, ou seja, está sendo pressionado;
+02 Visited - Seleciona o link que foi visitado;
+03 Hover - quando o mouse passa em cima do elemento;
+04 Checked - usado em radio, checked box ou select;
+05 Disabled - elemento desabilitado/ botton/ input;
+06 Enabled - elemento está habilitado;
+07 Focus - é aplicado qdo um elemento recebe foco o que pode ocorrer qdo o usuário seleciona o elemento;
+08 Read-only - seleciona input ou texto que são apenas leitura;
+09 Empty (vazio) - elemento que não tem filho
+10 First Child - primeiro filho / ex: primeira LI de uma UL/ primeiro spam de uma div;
+11 First-of type- primeiro elemento de seu tipo entre os filhosde seu elemento pai;
+12 Last of type -  ultimo elemento de seu tipo entre os filhos de seu elemento pai;
+13 Not() - estiliza os elementos, excetoo que está dentro ()
+14 NTH Child () - seleciona o elemento baseado na sua posição. Ex int-child(3)
+15 NTH-LAST-CHILD () - Seleciona o elemento baseado na sua posição, contando de trás para frente
+OBS - Pseudo elementos usava :: Já nos pseudos Clase usaremos :
+*/
+
+*{padding: 0px;
+margin: 0px;
+box-sizing: border-box;}
+
+li:nth-last-child(1){color: chartreuse;}

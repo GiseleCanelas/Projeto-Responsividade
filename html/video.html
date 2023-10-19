@@ -1,0 +1,30 @@
+<!--Video em HTML
+01- tag <video> parametro src="./" para encontrar a origem do meu video
+02 - parametro controls ele habilita por exemplo o play/ pause do meu video
+03- parametro controlsList="" ele por exemplo tira opçao de download
+04 - parametro autoplay seria que assim que a pagina for aberta o video comeca 
+automaticamente a iniciar, porem alguns navegadores bloqueiam esse dispositivo e para 
+que ele funcione preciso usar o  
+05 parametro muted (para que meu video inicie automaticamente porem mutado,sem som)
+06 - posso colocar uma "capa" para meu video, que seria uma imagem antes dele iniciar
+utilizo o parametro poster
+obs1 - tambem posso mudar a largura e altura do meu video, lembrando que para mudar a altura 
+utilizo height="" e a largura width=""
+
+obs2- caso vc queira ter certeza que seu video irá abrir vc podera salvar em varios formatos, porem
+no caso nao utilizará a tag src="" e sim a tag <source src="" e poderá incluir qtos formatos
+for necessario pois caso um não abra o outro abrirá
+-->
+
+<video src="./video.mp4" controls   controlsList="nodownload" autoplay  muted  poster="./IMG-20190307-WA0078.jpg">  </video>
+
+<!-- segunda opção 
+obs- caso vc queira ter certeza que seu video irá abrir vc podera salvar em varios formatos, porem
+no caso nao utilizará a tag src="" e sim a tag <source src="" e poderá incluir qtos formatos
+for necessario pois caso um não abra o outro abrirá  -->
+
+<video controls>
+    <source src="./video.mp4">
+    <source src="./video.mkv">
+
+</video>

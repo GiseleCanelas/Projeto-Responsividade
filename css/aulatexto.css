@@ -1,0 +1,36 @@
+h1{
+color: #0000FF; /* cor da fonte*/
+font-size: 50px; /*tamanho da fonte*/
+font-weight: bolder; /* seria peso da fonte ou seja se ela será mais fina ou grossa mas
+tb posso utilizar a expressao bold, bolder ou lighter*/
+font-family: 'Dancing Script', cursive;
+/* procurar estilos de fontes no site google fonts, ao selecionar
+a fonte desejada eu escolho o modelo que mais agradaou posso selecionar todos
+disponiveis, apos isso tenho dois passo diferentes que posso 
+utlilizar, copiando o link e colando no head do html e tb colando outro
+codigo no css que o proprio google fonts ja nos dá.
+já a outra forma seria atraves do import onde eu colaria o link no css*/;
+font-style: italic; /* estilo da fonte como por ex, italico*/
+word-spacing: 30px; /* espaçamento entre as palavras*/
+text-align: center; /* alinhamento do texto*/
+text-transform: capitalize;
+text-shadow: 20px 10px 8px #0000FF /* dist. horizontal, dist. vertical, grau esfumaçada, cor*/
+}
+
+
+
+p{
+color: #00ff00;
+font-size: 30px;
+font-weight: 200;
+font-family: 'Dancing Script', cursive;
+line-height: 80px; /* seria altura de uma linha com a outra ou sejaespaçamento entre linhas*/
+letter-spacing: 15px; /* espaçamento entre as letras*/
+}
+
+p2{
+text-transform: lowercase; /* letras todas minuscula, maiusculas...*/
+color: darkmagenta;
+font-size: 30px;
+text-decoration: underline;
+}

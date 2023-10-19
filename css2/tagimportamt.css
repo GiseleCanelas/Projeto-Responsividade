@@ -1,0 +1,11 @@
+h1{
+    color: blue !important;
+    color: red;
+}
+
+/* o  fato de eu ter colocado o !important fez com que o css
+inserisse a cor azul e não a vermelha como de costume, pois sabemos
+que por padrão o css é efeito cascata onde as últimas configurações
+é que terão preferencia, e colocando !important, faz com que
+eu altere essa ordem, porém não devo usar isso com frequencia 
+para que não cause problemas no meu código*/

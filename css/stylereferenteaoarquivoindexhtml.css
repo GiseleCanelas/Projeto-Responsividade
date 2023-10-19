@@ -1,0 +1,19 @@
+/*forma de organizar meus styles em um arquivo só para que meu arquivo html + css
+fique tudo junto e muito extenso. posso fazer separado minhas configuraçoes css.
+01. abra um arquivo novo e grave com a extensao em .css
+02. caso eu esteja fazendo meu style separado, só de fazer ambos separados o html nãosaberá que
+aquele style pertence aquele arquivo html, para isso preciso colocar uns comandos
+para que ele saiba onde está o style a ser inserido.
+03. dentro do head
+04. <link rel="stylesheet" href="./style.css">
+*/
+
+
+h1 {color:red;
+    background: black;}
+     
+    p {color: blue;
+    font-size: 20px;}
+    
+    button{background: green;
+        border-color: yellow;}

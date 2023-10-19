@@ -1,0 +1,35 @@
+.box1{
+width: 150px;
+height: 150px;
+background: #ff1493;
+padding: 80px;
+margin: 20px; /*espaçamento de margem, sobre a borda externa*/
+}
+
+.box2{
+width: 150px;
+height: 150px;
+background: #ff9090;
+padding: 80px; /* espaçamento interno dentro de uma caixa*/
+margin: 50px;
+}
+
+.box3{
+width: 150px;
+height: 150px;
+background: #0795ff;
+margin: 20px 80px 60px 40px;
+
+}
+
+/* temos atalhos para usar padding/ margin:
+01. usando padding/margin-top (em cima)
+           padding/margin-bottom ( embaixo)
+           padding/margin-right (direita)
+           padding/margin-left (esquerda)
+Para dar valores diferentes
+02. usando atalho do relogio ex A, B,C, D (seguindo o caminho dos ponteiros
+onde primeiro valor top, segundo right, terceiro bottom e quarto left)
+03. Terceiro atalho do relogio ex A,B,C ( seguindo sentido relogio primeiro top,
+segundovalor right + left e terceiro bottom
+04. Quarto atalho do relogio ex A,B ( valor top + bottom e right + left*/

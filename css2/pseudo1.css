@@ -1,0 +1,46 @@
+*{ padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* o sinal :: é o sinal referente ao pseudo, no caso abaixo
+escolhemos mudar o placeholder - que é o dizer dentro do input
+antes de ser digitado*/
+
+input{
+border: 5px solid red;
+color:blue;
+font-size: 50px;
+margin-top: 20px;}
+
+input::placeholder{
+color: #FF1396;}
+
+/* neste exemplo nos estilizamos somente a primeira letra do paragrafo usando
+o pseudo elemento
+first-letter - primeira letra
+first-line - primeira linha
+*/
+
+
+p{color: darkgreen;
+    font-size: 30px;}
+
+p::first-line{
+    color: blue;}
+
+
+/* neste exemplo vamos inserir algo antes ou depois, 
+utilizando a configuração after ou before*/
+
+a{color:darkorange;
+    font-size: 30px;
+}
+    
+a::after{
+content: "💙";}
+
+a::before{
+    content: "🚗 ";
+}

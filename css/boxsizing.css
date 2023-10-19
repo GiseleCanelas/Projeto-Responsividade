@@ -1,0 +1,27 @@
+
+*{ box-sizing: border-box; /* 95% dos projetos usa-se border-box
+    o * antes significa que a configuração irá se aplicar a tudo*/
+}
+
+
+.box{
+
+color: darkblue;
+font-size: 20px;
+height: 100px;
+width: 100px;
+background-color: chartreuse;
+padding: 30px;
+border: 10px solid #7690FF  /* tamanho + tipo borda + cor da borda */
+
+}
+
+
+
+/* BOX SIZING 
+Já vem como padrao no modo content (box-sizing: content-box) onde ao inserir uma altura
+e largura ela vai se somando a borda e padding.Isso faz
+com que o tamanho do meu elemento vá crescendo.
+Agora caso eu não queira que meu elemento ultrapasse os
+valores denominados no height e width ( permaneça o mesmo valor)
+ai eu aplico modo border (box-sizing- border-box)*/
